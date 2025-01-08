@@ -1,27 +1,82 @@
-![thumbnail-Formação Java](https://github.com/jacqueline-oliveira/3356-java-web-front/assets/66698429/7bd89d79-1385-4f62-adea-d4a27e79f728)
+# 🎥 ScreenMatch - Frases Clássicas de Filmes e Séries 🎬
 
-# Front-end da aplicação ScreenMatch
+## ✨ Descrição
+Bem-vindo(a) ao **ScreenMatch - Frases Clássicas**! Neste projeto, você encontrará frases icônicas de filmes e séries, integrando um backend e um frontend para gerar uma experiência imersiva e divertida. 🌟
 
-Essa é a aplicação Front-end que será utilizada no curso.
+Esta aplicação foi criada como um desafio para consolidar os conhecimentos em desenvolvimento de software, incluindo conceitos aprendidos em backend e frontend. 🧑‍💻
 
-Foi desenvolvida pela [Monica Hillman](https://cursos.alura.com.br/user/monicahillman)
+---
 
-Para visualizar a mesma, após o download ou clone do projeto, abra-a com o VS Code
+## 🚀 Funcionalidades
+- 🎲 Gerar frases aleatórias de filmes e séries famosas.
+- 🖼️ Exibir o pôster e informações sobre o filme ou série da frase.
+- 🛠️ Integração completa entre backend e frontend.
 
-Caso não possua, instale a extensão *Live Server*.
+---
 
-Feito isso, clique com o botão direito no arquivo **index.html** e escolha "Open with Live Server".
+## 🛑 Pré-requisitos
+Antes de começar, você precisará das seguintes ferramentas:
+- 🐍 **Java** (versão 17 ou superior).
+- 📦 **Maven** ou **Gradle** para gerenciar dependências.
+- 🛢️ Banco de dados **MySQL** (ou qualquer outro configurado no `application.properties`).
+- 🌐 Navegador para visualizar o frontend.
 
-A princípio, caso a sua API ainda não esteja desenvolvida, o conteúdo que você verá será esse abaixo:
+---
 
-![image](https://github.com/jacqueline-oliveira/3356-java-web-front/assets/66698429/b059bf8b-df40-4a51-8a27-9d1058305955)
+## ⚙️ Configuração do Projeto
+
+### 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/seu-usuario/screenmatch-frases.git
+```
+
+2️⃣ Configurar o backend
+1. Abra o arquivo application.properties em src/main/resources.
+2. Configure as informações do banco de dados:
+```spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_banco
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+```
+
+3. Execute o comando para rodar o backend:
+
+```
+./mvnw spring-boot:run
+```
+3️⃣ Configurar o frontend
+1. Navegue até a pasta do frontend:
+```
+cd frontend
+```
+2. Abra o arquivo index.html no navegador ou use um servidor local.
+
+📦 Estrutura do Projeto
+
+• backend/ - Código-fonte do backend em Spring Boot.
+• frontend/ - Arquivos do frontend em HTML, CSS e JavaScript
+
+💡 Tecnologias Utilizadas
+• Backend:
+
+- ☕ Java com Spring Boot.
+- 🛢️ Hibernate para ORM.
+- 🗄️ MySQL para banco de dados.
+
+• Frontend:
+- 🌐 HTML5, CSS3 e JavaScript.
+
+🤝 Contribuições
+Contribuições são bem-vindas! 💻✨ Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 
-Após a finalização do curso, seu projeto estará completo, já com as séries cadastradas e a API com as rotas prontas. Sendo assim, a aplicação irá mostrar os dados, de forma similar à abaixo:
+## 📧 Contato
+
+📌 Desenvolvido por Jeisa Boaventura.  
+📩 Email: caaarolboa@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/-caroline-boaventura/)
 
 
-![image](https://github.com/jacqueline-oliveira/3356-java-web-front/assets/66698429/00670340-c0fd-4035-b01a-af25aeff28a0)
 
 
-
-# Bons estudos!
